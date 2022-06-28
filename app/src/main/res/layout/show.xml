@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".show">
+
+    <TextView
+        android:id="@+id/adrs"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:paddingStart="15dp"
+        android:paddingTop="10dp"
+        android:hint="Address"
+        android:layout_marginTop="60dp"
+        android:textColor="@color/black"
+        android:textSize="25dp" />
+
+    <TextView
+        android:id="@+id/price"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:paddingStart="15dp"
+        android:layout_marginTop="60dp"
+        android:paddingTop="10dp"
+        android:hint="Price"
+        android:textColor="@color/black"
+        android:textSize="25dp" />
+
+    <Button
+        android:id="@+id/smt"
+        android:layout_width="230dp"
+        android:layout_height="60dp"
+        android:layout_marginLeft="70dp"
+        android:text="Submit" />
+</LinearLayout>

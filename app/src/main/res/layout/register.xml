@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linearlayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Register">
+
+    <EditText
+        android:id="@+id/username"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:ems="10"
+        android:hint="Enter Name"
+        android:inputType="textPersonName"
+        android:paddingStart="10dp"
+        android:layout_marginTop="20dp"/>
+    <EditText
+        android:id="@+id/Password"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginBottom="30dp"
+        android:hint="Enter Password"
+        android:inputType="textPassword"
+        android:paddingStart="10dp"
+        android:layout_marginTop="20dp"/>
+
+    <EditText
+        android:id="@+id/job"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:ems="10"
+        android:hint="Enter Job"
+        android:inputType="textPersonName"
+        android:paddingStart="10dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+        <TextView
+            android:id="@+id/birth"
+            android:layout_width="272dp"
+            android:layout_height="47dp"
+            android:width="200dp"
+            android:background="@drawable/input"
+            android:gravity="center"
+            android:hint="dd/mm/yyyy"
+            android:paddingStart="20dp"
+            android:paddingTop="8dp"
+            android:textSize="24dp" />
+
+        <ImageButton
+            android:id="@+id/birthDateBtn"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:background="@drawable/input"
+            android:src="@android:drawable/ic_menu_my_calendar" />
+
+    </LinearLayout>
+
+    <Spinner
+        android:id="@+id/gender"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:addStatesFromChildren="false"
+        android:background="@drawable/input"
+        android:entries="@array/Gender" />
+
+    <Button
+            android:id="@+id/Register"
+            android:layout_width="200dp"
+            android:layout_height="67dp"
+            android:text="Register"
+            android:layout_marginLeft="100dp"
+            android:textAllCaps="false"
+             android:layout_marginTop="40dp"
+            android:textColor="#070707"
+            android:textSize="20sp" />
+
+
+
+</LinearLayout>
